@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Game Screen 1</title>
+            <link href="css/layout.css" rel="stylesheet" type="text/css" />
+             <link href="css/layout2.css" rel="stylesheet" type="text/css" />
+        </head>
+    
+        <body onload="startTimer();receive();setback();" >
+            <script type="text/javascript" src="javascript/javascript.js"></script>
+        <div class="heading" >
+            <h1 id="title">ESCAPE ROOM</h1>  
+            <h2 class="secondHeading">NIGHT OUT</h2>
+            <div id="leftcol"  >
+            <p>Location: <span id="location">Your Bedroom</span></p>
+        <p style="font-family: serif;">Bus departs in <span id="timer">5:00</span> seconds </p> 
+                <p><button id="inventory" onclick="inventory()">Inventory</button>   <button id="checklist" onclick="checklist()">Checklist</button></p>
+                <p id="inventoryChecklist"></p>
+                <br> <p >You are in your BEDROOM. You know your keys is in here one of the cupboards. Your door leads to the HALL. What do you do? You will need your keys  to progress to access the rest of the house.</p>
+               
+                <p> <button id="BedroomButton" onclick="MoveToHallway()">ENTER HALL</button> <span id="keysAttempts"></span></p>
+            </div>
+            <div id="rightcol" >
+                    <img class="img" src="Images/bedroom_pexels.jpeg" style="width:870px;height: 560px;" alt="Picture of your bedroom" usemap="#bedroom" > <!--Image link is https://www.pexels.com/photo/white-and-black-desk-beside-bed-and-window-439227/ -->
+                
+                 <map name="bedroom" >
+                     <area title="cupboard" shape="rect" coords="154,355,204,384" id="drawer1" onclick="clickMap('drawer1')" class="maps">
+                    <area title="cupboard" coords="154,387,204,428" shape="rect" onclick="clickMap('drawer2')">
+                   <area title="cupboard" coords="206,364,262,398" shape="rect" onclick="clickMap('drawer3')">
+                    <area title="cupboard" coords="267,375,332,412" shape="rect" onclick="clickMap('drawer4')">
+                    <area title="cupboard" coords="283,94,369,133" shape="rect" onclick="clickMap('drawer5')">
+                    <area  title="cupboard"coords="368,130,491,173" shape="rect" onclick="clickMap('drawer6')">
+                    <area  title="cupboard" coords="670,373,780,414" shape="rect" id="drawer2" onclick="clickMap('drawer7')">
+                     <area title="cupboard" coords="670,432,776,453,774,481,666,462" shape="poly" onclick="clickMap('drawer8')">
+                    <area title="cupboard" coords="670,402,779,417,774,447,666,432" shape="poly" onclick="clickMap('drawer9')">
+                    <area title="cupboard" coords="668,466,771,482,772,514,666,495" shape="poly" onclick="clickMap('drawer10')">    
+                  </map>  
+                 
+            </div>
+        </div>
+       
+        
+        </body>
+    </html>

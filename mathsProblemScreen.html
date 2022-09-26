@@ -1,0 +1,40 @@
+<DOCTYPE html>
+    <html>
+        <head>
+        <title>Maths Problem</title>
+          <link href="css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="css/layout2.css" rel="stylesheet" type="text/css" />
+        </head>
+    
+        <body onload="loadTimer(); loadValues(); receive(); reloadMathsHint();setback();" >
+          <script type="text/javascript" src="javascript/javascript.js"></script>
+        <div class="heading" >
+            <h1 id="title">ESCAPE ROOM</h1>  
+            <h2 class="secondHeading">NIGHT OUT</h2>
+            <div id="leftcol">
+            <p>Location: <span id="location">Living Room</span></p>
+        <p style="font-family: serif;" >Bus departs in <span id="timer">5:00</span> seconds </p> 
+                <p><button id="inventory" onclick="inventory()">Inventory</button>   <button id="checklist" onclick="checklist()">Checklist</button></p>
+                 <p id="inventoryChecklist"></p>
+                  <p id="intro">You study the maths Challenge, trying to remember all you been taught over the years, which you had previously thought had faded.<br><button onclick="openGameScreen3()">Go Back</button><button onclick=" checkMathsAnswers()">Submit</button><br> <span id="mathsHint"></span></p>
+                
+            </div>
+            <div id="rightcol">
+            <img src="Images/paper_flickr.jpg" height="560px;" width="870px"><!-- Image link  https://www.flickr.com/photos/wheatfields/301181460-->
+           <img class="MathsInputA" src="Images/AInputMaths.png" alt="Picture of a red square used for input" onclick="firstMathsAnswer();">  <img class="FirstPlusSign" style="width: 50;height: 50;" src="Images/Plus_PlusSignIcons.png" alt="Picture of Plus sign"><!--Image created by group member-->  <img class="MathsInputB" src="Images/BInputMaths.png" alt="Picture of a Green square used for input" onclick="secondMathsAnswer()"><!--Image created by group member--> 
+                <img src="Images/equalsRightWayUp_pinclipart.png" class="FirstEqualsSign" style="width: 50;height: 50;" alt="Pictyre of equals sign"> <!--https://www.pinclipart.com/pindetail/iTxJmbw_equals-sign-png-equal-sign-clipart/-->
+                <p class="FirstAnswer">16</p>
+                <img src="Images/Plus_PlusSignIcons.png"  class="SecondPlusSign"style="width: 50;height: 50;" alt="Picture of a plus sign"><!--Image Link https://pngimage.net/white-plus-sign-png-2/ -->
+                 <img src="Images/Plus_PlusSignIcons.png"  class="ThirdPlusSign"style="width: 50;height:50;" alt="Picture of a plus sign" >
+                <img src="Images/CInputMaths.png" class="MathsInputC" alt="Picture of a Blue square used for input" onclick="thirdMathsAnswer()"><!--Image created by group member--> <img src="Images/minus_iconscout.png" class="FirstMinusSign" alt="Picture of a minus sign">
+                <img src="Images/DInputMaths.png" class="MathsInputD" alt="Picture of yellow square used for input" onclick="fourthMathsAnswer()"><!--Image created by group member-->
+                <img src="Images/equalsRightWayUp_pinclipart.png" class="SecondEqualsSign" style="width: 50;height: 50;" alt=" Picture of an equals sign">
+                <p class="SecondAnswer">12</p>
+                <img src="Images/equals_pinclipart.png" class="ThirdEqualsSign" style="width: 50;height: 50;" alt="Pictures of an equal sign"> <img src="Images/equals_pinclipart.png" class="FourthEqualsSign" style="width: 50;height: 50;" alt="Picture of an equal sign"> 
+                <p class="ThirdAnswer">26</p> <p class="FourthAnswer">16</p>
+            </div>
+            </div>
+        
+        </body>
+    
+    </html>

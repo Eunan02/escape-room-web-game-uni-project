@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Game Screen 2</title>
+            <link href="css/layout.css" rel="stylesheet" type="text/css" />
+            <link href="css/layout2.css" rel="stylesheet" type="text/css" />
+        </head>
+    
+        <body onload="loadTimer();loadValues();receive();setback();room('hallway')"   >
+            <script type="text/javascript" src="javascript/javascript.js"></script>
+        <div class="heading" >
+            <h1 id="title">ESCAPE ROOM</h1>  
+            <h2 class="secondHeading">NIGHT OUT</h2>
+            <div id="leftcol">
+            <p>Location: <span id="location">The Hallway</span></p>
+        <p style="font-family: serif;" >Bus departs in <span id="timer">5:00</span> seconds </p> 
+                  <p><button id="inventory" onclick="inventory()">Inventory</button>   <button id="checklist" onclick="checklist()">Checklist</button></p>
+                <p id="inventoryChecklist"></p>
+                <p id="introMessage">You enter the hall. Obvious exits are your SISTER’S ROOM, your PARENTS’ ROOM and DOWNSTAIRS. What do you do?<br><button id="parents" onclick="room('parents')">Parents Bedroom</button><button onclick="room('sister')">Sisters Room</button><button onclick="room('downStairs')">DownStairs</button></p>
+                
+            </div>
+            <div id="rightcol"  >
+                <img id="img" class="clsFirstImg" src="Images/upstairsHallway_wikimedia.jpg" style="width:870px;height: 560px;" alt="Picture of hallway" usemap="#hallway"><!-- Image link is https://commons.wikimedia.org/wiki/File:Sixes,_Oregon_-_Patrick_Hughes_House_-_interior_28_-_upstairs_hallway.jpg -->
+          
+         <audio id="doorSound"  preload="none"> <source src="Sounds/openDoor_freesoundeffects.wav" type="audio/wav"> </audio><!--Sound Link:https://www.freesoundeffects.com/free-track/open-door-1-426743/-->
+
+              <audio id="unlock" preload="none"> <source src="Sounds/unlockSound_freesound.wav" type="audio/wav"> </audio>
+                <!--Sound Link:https://freesound.org/people/BeezleFM/sounds/512139/-->
+            </div>
+            </div>
+    </body>
+    </html>

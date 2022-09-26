@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+        <head>
+            <title>Game Screen 3</title>
+            <link href="css/layout.css" rel="stylesheet" type="text/css" />
+            <link href="css/layout2.css" rel="stylesheet" type="text/css" />
+        </head>
+    
+        <body onload="loadTimer(); loadValues(); receive();returnToLivingRoom();setback();"  >
+            <script type="text/javascript" src="javascript/javascript.js"></script>
+        <div class="heading" >
+            <h1 id="title">ESCAPE ROOM</h1>  
+            <h2 class="secondHeading">NIGHT OUT</h2>
+            <div id="leftcol">
+            <p>Location: <span id="location">The Front Door</span></p>
+        <p style="font-family: serif;" >Bus departs in <span id="timer">5:00</span> seconds </p>
+                       <p><button id="inventory" onclick="inventory()">Inventory</button>   <button id="checklist" onclick="checklist()">Checklist</button></p>
+                <p id="inventoryChecklist"></p>
+                  <p id="intro">You stand at the front door. Do you have everything to go out, if so click on the door? If not, You may enter the LIVING ROOM, or go back upstairs to the HALL. <br> <button onclick="room('upstairs')"> UpStairs</button><button onclick="room('living_Room')">Living room</button><button onclick="room('kitchen')">Kitchen</button></p>
+                
+            </div>
+            <div id="rightcol" >
+                <img id="door" src="Images/hallway_pexels.jpg" style="width:870px;height: 560px;" alt="Picture of front door" usemap="#frontDoor"><!--Image link https://www.pexels.com/photo/brown-wooden-staircase-with-brass-chandelier-3288103/-->
+                 <map id="frontDoor" name="frontDoor">  <area title="front door" coords="527,436,663,485,660,123,531,157" shape="poly" onclick="frontDoorClick()"></map>
+                   <audio id="doorSound"  preload="none"> <source src="Sounds/openDoor_freesoundeffects.wav" type="audio/wav"> </audio><!--Sound Link:https://www.freesoundeffects.com/free-track/open-door-1-426743/-->
+
+            </div>
+            </div>
+    </body>
+    </html>

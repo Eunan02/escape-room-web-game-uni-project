@@ -1,0 +1,94 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Welcome to Escape Room-Night Out</title>
+              <link href="css/layout.css" rel="stylesheet" type="text/css" />
+            <link href="css/layout2.css" rel="stylesheet" type="text/css" />
+        </head>
+    
+        <body id="landing" onload="set();">
+               <script type="text/javascript" src="javascript/javascript.js"></script>
+             <div class="heading">
+            <div id="title">
+                 <h1>ESCAPE ROOM</h1>  
+            <h2 class="secondHeading">NIGHT OUT</h2>
+                 </div>
+                 <div class="gameLanding1stLeftCol">
+                    <h2>The Outline</h2>
+                 <p class="IntroPara">This is the night you've been waiting for weeks,finally here.You're getting the bus <br> into town and doing pub crawl  so legendary, tales will be passed down <br> for generations. But you're not ready, your parents won't let out until you've <br> finished your chores, and theres only 5 minutes until the bus leaves <br> <br> Are you able to get your stuff together at the 11th hour and escape the house<br> to enjoy the night of a lifetime, or will you have to spend another night watching<br> TV? <br><br> An Escape Room Adventure</p>
+                 </div>
+            
+                
+                 <div class="gameLandingRightCol">
+                    <br>
+                     <br>
+                     <br>
+                     <br> 
+                 <h2>Game Options</h2>
+                    <br>
+                     <form>
+                        <label for="PlayersName">What's Your Name</label>
+                         <input type="text" name="PlayersName"id="PlayerName">
+                         <br>
+                         <br>
+                        <br>
+                         <br>
+                         <br>
+                         <label for="FriendsName">What's Your Friend's Name</label>
+                         <input type="text" name="FriendsName"id="FriendName">
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <label for="FavouriteDrink">What's Your Favourite Drink</label>
+                         <select name="FavouriteDrink"id="FavouriteDrink">
+                         <option value="Select Drink">Select Drink</option>
+                        <option value="vodka">Vodka</option>
+                        <option value="beer">Beer</option>
+                        <option value="gin">Gin</option>
+                        <option value="Cider">Cider</option>
+                         </select>
+                          <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                      <label for="hints">Do you want to use hints or not?</label>
+                    <select name="hints" id="hints" >
+                     <option value="no">no</option>
+                    <option value="yes">yes</option>
+                     </select>
+                     </form>
+                     <br>
+                     <br>
+                         <button onclick="change(); accessFeatures();setback();" type="submit">BEGIN</button>
+                     
+                     
+                 </div>
+                   <div class="gameLanding2ndLeftCol">
+                 <h2>Accessibility Features</h2>
+                    <form>
+                    <label for="textAccessesability">Text:</label>   
+                        <input type="radio" value="Small Text"  id='sText'   name="text"><label>Small Text</label>
+                        <input type="radio" value="Normal Text" id='nText' name="text"> <label>Normal Text</label>
+                        <input type="radio" value="Large Text" id='lText' name="text"><label>Large Text</label>
+                       
+                        <br>
+                        <label for="visualAccessesability">Visual:</label>
+                         <input type="radio" value="Light Mode" id='light' name="visual"> <label>Light Mode</label>
+                        <input  type="radio" id='dark' value="Dark Mode" name="visual"><label>Dark Mode</label>
+                         
+                        
+                       
+                        <br> <br>
+                        
+                    </form>
+                       
+                       
+                       <button onclick="localAccess();setSize();">Change</button>
+                 </div>
+            </div>
+        </body>
+    </html>
+</DOCTYPE>
