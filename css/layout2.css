@@ -1,0 +1,1002 @@
+@media screen and (min-width:2560px) {
+
+    h1,
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 0.5em;
+        color: #bbb;
+        padding: 10px;
+    }
+
+
+
+    
+
+
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 783px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 1300px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1650px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 1300px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1650px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1500px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1325px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1670px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1500px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1780px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1780px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1320px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1670px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1900px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1900px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1330px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1680px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+}
+
+@media screen and (min-width:2400px) and (max-width: 2559px) {
+
+
+    
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 1130px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 1300px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1650px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 1300px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1650px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1500px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1325px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1670px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1500px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1780px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1780px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1320px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1670px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1900px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1900px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1330px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1680px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+}
+
+@media screen and (min-width:2230px) and (max-width: 2399px) {
+
+
+
+
+
+    
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 1010px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 1100px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1450px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 1100px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1450px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1300px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1125px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1470px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1300px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1630px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1630px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1120px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1470px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1750px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1750px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1120px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1470px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width:2070px) and (max-width: 2229px) {
+
+
+
+   
+
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 910px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 1000px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1350px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 1000px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1350px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1200px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1020px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1370px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1200px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1530px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1530px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1020px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1370px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1650px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1650px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1020px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1370px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width:1900px) and (max-width: 2069px) {
+
+
+
+
+    
+
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 800px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 900px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1250px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 900px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1250px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 925px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1270px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1100px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1420px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1420px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 920px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1270px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1550px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1550px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 920px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1270px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width:1760px) and (max-width: 1899px) {
+
+
+
+  
+
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 710px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 800px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1150px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 800px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1150px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 1000px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 825px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1170px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 1000px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1300px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1300px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 825px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1170px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1400px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1400px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 825px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1170px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+}
+
+
+@media screen and (min-width:1600px) and (max-width: 1759px) {
+
+    
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 600px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 700px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 1050px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 700px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 1050px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 900px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 1070px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 720px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 900px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1230px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1230px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 720px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 1070px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1340px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1340px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 720px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 1070px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+}
+
+
+@media screen and (min-width:1400px) and (max-width: 1599px) {
+
+  
+    #passcode {
+        position: absolute;
+        top: 115px;
+        left: 475px;
+        text-align: left;
+        font-family: sans-serif;
+        background-color: white;
+        border: 5px solid black;
+    }
+
+
+
+    .MathsInputA {
+        position: absolute;
+        top: 190px;
+        left: 600px;
+    }
+
+    .MathsInputB {
+        position: absolute;
+        top: 190px;
+        left: 900px;
+    }
+
+    .MathsInputC {
+        position: absolute;
+        top: 370px;
+        left: 600px;
+    }
+
+    .MathsInputD {
+        position: absolute;
+        top: 370px;
+        left: 900px;
+    }
+
+    .FirstPlusSign {
+        position: absolute;
+        top: 200px;
+        left: 770px;
+    }
+
+    .SecondPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 920px;
+    }
+
+    .ThirdPlusSign {
+        position: absolute;
+        top: 300px;
+        left: 620px;
+    }
+
+    .FirstMinusSign {
+        position: absolute;
+        top: 370px;
+        left: 770px;
+    }
+
+    .FirstEqualsSign {
+        position: absolute;
+        top: 210px;
+        left: 1100px;
+    }
+
+    .SecondEqualsSign {
+        position: absolute;
+        top: 380px;
+        left: 1100px;
+    }
+
+    .ThirdEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 620px;
+    }
+
+    .FourthEqualsSign {
+        position: absolute;
+        top: 500px;
+        left: 920px;
+    }
+
+    .FirstAnswer {
+        position: absolute;
+        top: 170px;
+        left: 1200px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .SecondAnswer {
+        position: absolute;
+        top: 350px;
+        left: 1200px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .ThirdAnswer {
+        position: absolute;
+        top: 550px;
+        left: 620px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .FourthAnswer {
+        position: absolute;
+        top: 550px;
+        left: 920px;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+}

@@ -1,0 +1,321 @@
+
+*{
+  box-sizing:border-box;  
+  overflow: auto;
+}
+.IntroPara{
+    text-align: left;
+    font-family: sans-serif;
+
+}
+.heading{
+  text-align: center;
+    font-family: blockheadDude;
+      
+}
+@font-face{
+    font-family: 'blockheadDude';
+src:url('fonts/BlockheadDudePersonalUse-d9nvl.ttf');
+}
+.responsive
+{
+      width: 100%;
+  height: auto;
+}
+#leftcol{
+    width: 30%;
+    background-color: white;
+    float: left;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+}
+#rightcol{
+    width: 70%;
+    float: right;
+    height: 100%;
+  
+}
+.secondHeading
+{
+     border-bottom: 3px solid blue;
+}
+.gameLanding1stLeftCol{
+ width: 50%;
+   
+    height: 60%;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+    float:left;
+}
+.gameLanding2ndLeftCol
+{
+    width:  50%;
+    height: 40%;
+    float: left;
+    border-right: 3px solid blue;
+}
+.gamelandingRightCol{
+    width: 50%;
+    height: 100%;
+    float: right;
+   
+    
+}
+map {
+  display: inline;
+}
+
+.clsFirstImg
+{
+    width: 25%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.MathsInputA
+{
+    
+    position: absolute;
+    top: 190px;
+    left: 500px;
+}
+
+.MathsInputB
+{
+   
+    position: absolute;
+    top: 190px;
+    left: 850px;
+}
+.FirstPlusSign
+{
+   
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+.SecondPlusSign
+{
+   
+    position: absolute;
+    top: 300px;
+    left: 525px;
+}
+.ThirdPlusSign
+{
+    position: absolute;
+    top: 300px;
+    left: 870px;
+}
+.MathsInputC
+{
+    
+    position: absolute;
+    top: 370px;
+    left: 500px;
+}
+.MathsInputD
+{
+   
+    position: absolute;
+    top: 370px;
+    left: 850px;
+}
+.FirstMinusSign
+{
+    position: absolute;
+    top: 370px;
+    left: 700px;
+}
+.FirstEqualsSign
+{
+    position: absolute;
+    top: 210px;
+    left: 980px;
+}
+.SecondEqualsSign
+{
+    position: absolute;
+    top: 380px;
+    left: 980px;
+}
+.ThirdEqualsSign
+{
+     position: absolute;
+    top: 500px;
+    left: 520px;
+}
+
+.FourthEqualsSign
+{
+    position: absolute;
+    top: 500px;
+    left: 870px;
+}
+.FirstAnswer{
+    position: absolute;
+    top: 170px;
+    left: 1100px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.SecondAnswer
+{
+    position: absolute;
+    top: 350px;
+    left: 1100px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.ThirdAnswer
+{
+     position: absolute;
+    top: 550px;
+    left: 530px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.FourthAnswer
+{
+     position: absolute;
+    top: 550px;
+    left: 880px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.firstAnswerOutput
+{
+    position: absolute;
+    top:200px;
+    text-align: center;
+    left: 540px;
+     font-size: 20px;
+    font-family: sans-serif;
+}
+.secondAnswerOutput
+{
+    position: absolute;
+    top:200px;
+    text-align: center;
+    left: 890px;
+     font-size: 20px;
+    font-family: sans-serif;
+
+}
+.thirdAnswerOutput
+{
+    position: absolute;
+    text-align: center;
+     font-size: 20px;
+    font-family: sans-serif;
+    top: 370px;
+    left: 540px;
+}
+.fourthAnswerOutput
+{
+    position: absolute;   
+    text-align: center;
+     font-size: 20px;
+    font-family: sans-serif;
+top: 370px;
+    left: 895px;
+}
+
+#passcode{
+     position: absolute;
+    top: 115px;
+    left: 383px;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+    border: 5px solid black;
+}
+.numbers{
+     border: 1px solid black;
+}
+.image {
+  width:600px;
+  height:400px;
+  border:5px solid red;
+  cursor:none;
+    
+background-color: black;
+}
+.image .torch {
+  width:600px;
+  height:400px;
+  background:url("back.jpg") center no-repeat;
+  background-size:cover;  
+  clip-path:circle(30% at 0% 0%);
+    
+}    
+#inventory
+{
+    padding: 0;
+border: none;
+background: none;
+text-decoration: underline;
+font-weight: bold;
+}
+#checklist
+{
+    padding: 0;
+border: none;
+background: none;
+    text-decoration: underline;
+font-weight: bold;
+}
+
+.checklist
+{
+    text-decoration: underline;
+    font-weight: bold;
+    
+    font-family: sans-serif;
+    color: black;
+    
+}
+.inventory
+{
+   font-family: cursive; 
+     text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+         
+}
+.statsLayout
+{
+     position: absolute;
+    top: 115px;
+    left: 300px;
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+    border: 5px solid black;
+}
+.title
+{
+  display:table;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: underline;
+}
+.statsLayoutLosing
+{
+     position: absolute;
+    top: 0px;
+    left: 250px;
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+    border: 5px solid black;
+}
